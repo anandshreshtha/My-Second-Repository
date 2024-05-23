@@ -39,62 +39,25 @@ main {
     padding: 2rem;
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #4CAF50;
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
-.lamp-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-#ginLamp {
-    width: 150px;
-    cursor: pointer;
-}
-
-#supportButton {
+#subscribe-button {
     background-color: #4CAF50;
     color: white;
     border: none;
     padding: 1rem 2rem;
-    margin-top: 1rem;
     cursor: pointer;
 }
 
-#supportButton:hover {
-    background-color: #45a049;
-}
-
-.hidden {
-    display: none;
-}
-
-.ad-content {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.ad-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-}
-
-.ad-link:hover {
+#subscribe-button:hover {
     background-color: #45a049;
 }
